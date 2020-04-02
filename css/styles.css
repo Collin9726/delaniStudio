@@ -1,5 +1,6 @@
 html, body{
     height: 100%;
+    width: 100%;
 }
 
 .padding{
@@ -34,7 +35,20 @@ html, body{
     transform: translateX(-50%);
 }
 
+.services{
+    background-image: url("../images/backgrounds/s_image.jpg");
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50%;
+    position: relative; 
+}
 
-
-
+.services-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
