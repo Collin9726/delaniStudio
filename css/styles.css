@@ -75,3 +75,16 @@ html, body{
     opacity: 1;
 }
 
+.social img{
+    width: 100%;
+}
+
+@media (max-width: 576px){
+    .social .col-1{
+        width: 12.4999999995%;
+        flex: 0 0 12.499%;
+        max-width: 12.499%;
+        margin-bottom: 1em;
+    }
+}
+
