@@ -55,3 +55,25 @@ html, body{
 .portfolio img{
     width: 100%;    
 }
+
+.contact{
+    background-image: url("../images/backgrounds/c_image.jpg");
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact-content{
+    padding-top: 3em;
+    padding-bottom: 4em;
+}
+
+.form-control{
+    background-color: transparent;
+}
+
+.form-control::placeholder{
+    color: white;
+    opacity: 1;
+}
