@@ -1,0 +1,40 @@
+html, body{
+    height: 100%;
+}
+
+.padding{
+    padding-bottom: 2em;
+}
+
+.welcome{
+    background-image: url("../images/backgrounds/h_img.jpg");
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; 
+    position: relative;   
+}
+
+.welcome-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.welcome-content p{
+    text-transform: uppercase;
+}
+
+.mouse-click{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+
