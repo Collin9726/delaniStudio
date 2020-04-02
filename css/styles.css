@@ -41,15 +41,11 @@ html, body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 50%;
-    position: relative; 
 }
 
 .services-content{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    padding-top: 6em;
+    padding-bottom: 6em;
 }
 
 .portfolio img{
@@ -71,9 +67,11 @@ html, body{
 
 .form-control{
     background-color: transparent;
+    margin-bottom: 1em;
 }
 
 .form-control::placeholder{
     color: white;
     opacity: 1;
 }
+
