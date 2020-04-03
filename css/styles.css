@@ -99,6 +99,56 @@ html, body{
     opacity: 0.8;
 }
 
+
+.work1,
+.work2,
+.work3,
+.work4,
+.work5,
+.work6,
+.work7,
+.work8{
+    position: relative;
+}
+
+.title-1,
+.title-2,
+.title-3,
+.title-4,
+.title-5,
+.title-6,
+.title-7,
+.title-8{
+    position: absolute;
+    color: white;  
+    top: 10%;
+    bottom: 10%;
+    left: 10%; 
+    right: 10%;
+    border: 3px white solid;
+    padding: 5%;
+    text-align: left;
+    display: none;
+}
+
+.dark-bg1,
+.dark-bg2,
+.dark-bg3,
+.dark-bg4,
+.dark-bg5,
+.dark-bg6,
+.dark-bg7,
+.dark-bg8{
+    position: absolute;
+    top: 0em;
+    bottom: 0em;
+    left: 0em;
+    right: 0em;
+    background-color: black;
+    opacity: 0.5;
+    display: none;
+}
+
 @media (max-width: 576px){
     .social .col-1{
         width: 12.4999999995%;
