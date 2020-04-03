@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $(".design").click(function(){
+        $("#design_content_show").toggle();
+        $("#design_icon_show").toggle();
+    });
+    $(".dev").click(function(){
+        $("#dev_content_show").toggle();
+        $("#dev_icon_show").toggle();
+    });
+    $(".p-mgt").click(function(){
+        $("#p-mgt_content_show").toggle();
+        $("#p-mgt_icon_show").toggle();
+    });
+});

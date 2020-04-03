@@ -79,6 +79,26 @@ html, body{
     width: 100%;
 }
 
+#design_content_show,
+#dev_content_show,
+#p-mgt_content_show{
+    display: none;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.design,
+.dev,
+.p-mgt{
+    cursor: pointer;
+}
+
+.design img:hover,
+.dev img:hover,
+.p-mgt img:hover{
+    opacity: 0.8;
+}
+
 @media (max-width: 576px){
     .social .col-1{
         width: 12.4999999995%;
