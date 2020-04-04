@@ -127,8 +127,13 @@ html, body{
     right: 10%;
     border: 3px white solid;
     padding: 5%;
-    text-align: left;
+    text-align: left;    
     display: none;
+}
+
+.portfolio h4{
+    font-weight: 600;
+    font-size: x-large;
 }
 
 .dark-bg1,
