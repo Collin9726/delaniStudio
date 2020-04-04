@@ -1,6 +1,7 @@
 html, body{
     height: 100%;
     width: 100%;
+    scroll-behavior: smooth;
 }
 
 .padding{
@@ -77,6 +78,10 @@ html, body{
 
 .social img{
     width: 100%;
+}
+
+.social a:hover{
+    opacity: 0.6;
 }
 
 #design_content_show,
