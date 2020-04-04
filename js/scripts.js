@@ -33,13 +33,13 @@ $(document).ready(function(){
     });
 });
 
-function hoverEffect(y){
-    $(".work"+y).hover(function(){
-        $(".title-"+y).show();
-        $(".dark-bg"+y).show();
+function hoverEffect(portfolioNum){
+    $(".work"+portfolioNum).hover(function(){
+        $(".title-"+portfolioNum).show();
+        $(".dark-bg"+portfolioNum).show();
     },function(){
-        $(".title-"+y).hide();
-        $(".dark-bg"+y).hide();
+        $(".title-"+portfolioNum).hide();
+        $(".dark-bg"+portfolioNum).hide();
     });
 }
 

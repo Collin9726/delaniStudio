@@ -182,13 +182,11 @@ html, body{
 }
 
 
-/*
 @media (max-width: 576px){
-    .social .col-1{
-        width: 12.4999999995%;
-        flex: 0 0 12.499%;
-        max-width: 12.499%;
-        margin-bottom: 1em;
+    .welcome-content h1{
+        font-size: 2em;
+    }
+    .welcome-content p{
+        font-size: small;
     }
 }
-*/
