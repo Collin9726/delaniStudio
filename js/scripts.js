@@ -12,6 +12,7 @@ $(document).ready(function(){
         $("#p-mgt_content_show").toggle();
         $("#p-mgt_icon_show").toggle();
     });
+
     //portfolio hover effects
     hoverEffect("1");
     hoverEffect("2");
@@ -21,6 +22,15 @@ $(document).ready(function(){
     hoverEffect("6");
     hoverEffect("7");
     hoverEffect("8");
+
+    //input forms
+    $("#feedback form").submit(function(event){
+        event.preventDefault();
+        var name=$("#name").val().trim();
+        var email=$("#email").val().trim();
+        var message=$("#message").val().trim();
+        validate(name, email, message);                
+    });
 });
 
 function hoverEffect(y){
@@ -31,4 +41,19 @@ function hoverEffect(y){
         $(".title-"+y).hide();
         $(".dark-bg"+y).hide();
     });
+}
+
+function validate(name, email, message){
+    if(name==="" || email==="" || message===""){
+        $(".receiptConfirm").hide();
+        $(".emptyFields").show();
+        return false;
+    }
+    else{
+        $(".emptyFields").hide();
+        $(".receiptConfirm").show();
+        $(".nameConfirm").text(name);
+        $("#myForm").trigger("reset"); 
+        return true;
+    }
 }

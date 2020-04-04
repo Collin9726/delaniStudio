@@ -58,7 +58,7 @@ html, body{
     color: white;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;    
 }
 
 .contact-content{
@@ -158,6 +158,30 @@ html, body{
     opacity: 0.5;
     display: none;
 }
+
+.emptyFields{
+    color: yellow;    
+    display: none;
+    font-size: large;
+}
+
+.receiptConfirm{
+    color: white;
+    display: none;
+    font-size: large;
+}
+
+#myForm input{
+    color:white;
+    background-color: transparent;
+}
+
+#myForm textarea{
+    color:white;
+    background-color: transparent;
+}
+
+
 /*
 @media (max-width: 576px){
     .social .col-1{
