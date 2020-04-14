@@ -189,4 +189,7 @@ html, body{
     .welcome-content p{
         font-size: small;
     }
+    .portfolio h4{
+        font-size: large;
+    }
 }
