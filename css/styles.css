@@ -104,7 +104,6 @@ html, body{
     opacity: 0.8;
 }
 
-
 .work1,
 .work2,
 .work3,
@@ -181,7 +180,6 @@ html, body{
     background-color: transparent;
 }
 
-
 @media (max-width: 576px){
     .welcome-content h1{
         font-size: 2em;
@@ -191,8 +189,7 @@ html, body{
     }
     .portfolio h4{
         font-size: large;
-    }
-    
+    }    
     .welcome-content h1{        
         font-size: x-large;
     }
