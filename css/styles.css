@@ -192,4 +192,8 @@ html, body{
     .portfolio h4{
         font-size: large;
     }
+    
+    .welcome-content h1{        
+        font-size: x-large;
+    }
 }
